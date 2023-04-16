@@ -1,49 +1,162 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home">
-        <h1>Welcome to My Website</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum fringilla commodo.</p>
-        <a href="#portfolio" class="btn">View Portfolio</a>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum fringilla commodo.</p>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Image 1">
-            <img src="image2.jpg" alt="Image 2">
-            <img src="image3.jpg" alt="Image 3">
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="contact.php" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2023 My Website. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+	<head>
+		<title>Martin's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio<br />
+						</h1>
+						<p>These are some of the projects I have worked on in my classes and internships!</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Portfolio</a></li>
+							<li><a href="generic.html">Experiences</a></li>
+							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/martin-liu-42314417a/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/mmaliu97" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Welcome!</a></h2>
+									<p>Hi there! My name is Martin. I am a graduate student at UC Berkeley studying Systems Engineering. I am interesetd
+                                        in using data science / software engineering in fields related to energy, transportation 
+                                        and climate tech.
+                                    </p>
+								</header>
+								<img src="images/gradpic_small.JPG" alt="" width="500" height="500" /></a>
+								
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Capstone Project:<br />
+                                            Climate Synapse</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/climate.png" alt="" /></a>
+									<p>For my capstone project, I worked on creating a website that climate investors could use to find researchers and investors
+                                        working on climate related technology as listed in IEAs ETP Clean Energy Technology Guide.
+                                    </p>
+									<ul class="actions special">
+										<li><a href="https://mmaliu97-cl-synapse-project-emmaclimate-siteintroduction-2vg58n.streamlit.app/" class="button">Check out the website!</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Evaluating “bikeability” of Lower Income Neighborhoods <br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/biking.jpg" alt="" /></a>
+									<p>For my Scalable Spatial Analytics class, I evaluated the bike networks of lower income neighborhoods with the intention of 
+                                        seeing how much more infrastructure needs to be developed in these neighborhoods when AB 117 gets implemented.
+                                    </p>
+									<ul class="actions special">
+										<li><a href="263 Final Paper.pdf" class="button">Report</a></li>
+									</ul>
+                                    <ul class="actions special">
+										<li><a href="https://github.com/g-perona/CE-263-Final-Project/blob/main/notebooks/Project_martin.ipynb" class="button">Check out our github repo</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Dehydrated Aquifers: A Spatiotemporal Analysis On Groundwater Levels                                            <br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/flooding.jpg" alt="" /></a>
+									<p>For my Senior Project in UC Davis, we evaluated three different implementations of Flood MAR (Managed Aquifer Recharge) and determined
+                                        which was the most effective for current usage based off historical data
+                                    </p>
+									<ul class="actions special">
+										<li><a href="images/senior_proj.jpg" class="button">Poster</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Avalanche fatalities during Atmospheric River EVENTS IN WESTERN US<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/cw3e.jpg" alt="" /></a>
+									<p>During my internship with CW3E, I had the pleasure of working on Professor Benjamin Hatchett's research regarding atmospheric river events
+                                        and their relation with avalanche fatalities, along with analyzing weather patterns during these fatalities.
+                                    </p>
+									<ul class="actions special">
+										<li><a href="Report.pdf" class="button">Report</a></li>
+									</ul>
+								</article>
+								
+							</section>
+
+						
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">martin97@berkeley.edu</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+								    <li><a href="https://www.linkedin.com/in/martin-liu-42314417a/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/mmaliu97" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
